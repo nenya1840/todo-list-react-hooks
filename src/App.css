@@ -1,0 +1,42 @@
+.app {
+    background-color: #000;
+    padding: 30px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.todo-list {
+    width: 600px;
+}
+
+.todo {
+    background-color: #333;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.15);
+    padding: 5px 10px;
+    color: #fff;
+    height: 48px;
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.todo:hover .remove {
+    display: block;
+}
+
+.remove {
+    display: none;
+}
+
+.task {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    margin-right: 10px;
+}
